@@ -393,11 +393,13 @@ describe("3.3 Melhorando Nomes e Estrutura", () => {
             type: "filter",
             fn: (n) => n % 2 === 0,
           });
+
           PipelineBuilder.registerOperation({
             name: "double",
             type: "map",
             fn: (n) => n * 2,
           });
+
           PipelineBuilder.registerOperation({
             name: "errorOp",
             type: "map",

@@ -14,3 +14,13 @@ npm i
 #Execute tests
 npm test
 ```
+
+### To test the sql-solution you could access: https://sqliteonline.com/
+
+#### Run first the DATA-DEFITION
+
+#### Then run the SEED-DATA
+
+#### Now run any challenge solution you want!
+
+

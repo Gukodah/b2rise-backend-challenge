@@ -17,3 +17,4 @@ export function processNumberPipeline(
   //map chain
   return mapFns.reduce((arr, mapper) => arr.map(mapper), filtered);
 }
+
